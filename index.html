@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de GOK ABAH Armel Rodrigue, étudiant en informatique de gestion et designer UI/UX.">
+  <title>GOK ABAH ARMEL RODRIGUE | Profil développeur & UI/UX</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#profil" aria-label="Retour au profil">
+        <span class="brand-mark">GA</span>
+        <span><strong>GOK ABAH ARMEL RODRIGUE</strong><small>PORTFOLIO / 2026</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+      <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
+        <a class="nav-link is-active" href="#profil"><b>[1]</b> Mon profil</a>
+        <a class="nav-link" href="#competences"><b>[2]</b> Mes compétences</a>
+        <a class="nav-link" href="#projets"><b>[3]</b> Mes projets</a>
+        <a class="nav-link" href="#statistiques"><b>[4]</b> Mes statistiques</a>
+        <a class="nav-link" href="#contact"><b>[5]</b> Contact</a>
+      </nav>
+      <div class="availability"><i></i> Disponible pour un projet</div>
+    </header>
+
+    <main>
+      <section id="profil" class="hero section-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="prompt">&gt;_</span> labo-01 / profil développeur</p>
+          <h1>Transformer les idées<br><em>en systèmes clairs.</em></h1>
+          <p class="hero-intro">Je suis <strong>GOK ABAH Armel Rodrigue</strong>, étudiant passionné par l'informatique de gestion, le développement logiciel, la modélisation de bases de données, l'analyse réseau et le design UI/UX.</p>
+          <div class="hero-meta"><span>ITLG — Institut Technique de Grâce-Hollogne / Liège</span><span class="meta-dot">•</span><span>Bachelier en Informatique de Gestion</span></div>
+          <a class="button button-primary" href="https://github.com/armelgokabah-art" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.24c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.46-1.2-1.12-1.52-1.12-1.52-.91-.64.07-.63.07-.63 1.01.07 1.54 1.07 1.54 1.07.9 1.58 2.35 1.12 2.92.86.09-.67.35-1.12.64-1.38-2.22-.26-4.55-1.15-4.55-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.2 9.2 0 0 1 12 7.02c.85 0 1.7.12 2.49.36 1.9-1.33 2.74-1.05 2.74-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9v2.83c0 .27.18.59.69.49A10.25 10.25 0 0 0 22 12.24C22 6.58 17.52 2 12 2Z"/></svg> Ouvrir mon GitHub <span>↗</span></a>
+        </div>
+        <div class="profile-stage reveal reveal-delay">
+          <div class="profile-frame"><div class="frame-label">PROFILE_IMG / 001</div><img src="gok.jpg" alt="GOK ABAH Armel Rodrigue" onerror="this.style.display='none'; this.parentElement.classList.add('image-fallback')"><div class="fallback-content"><span>GA</span><small>GOK ABAH<br>ARMEL RODRIGUE</small></div><div class="frame-corner corner-tl"></div><div class="frame-corner corner-br"></div></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="floating-chip chip-bottom"><span class="signal-bars"><i></i><i></i><i></i></span><span><small>STATUS</small><b>En ligne</b></span></div>
+        </div>
+      </section>
+
+      <section id="competences" class="section-block">
+        <div class="section-heading"><div><p class="eyebrow">02 / stack technique</p><h2>Compétences <em>en pratique.</em></h2></div><p class="section-note">Un socle construit entre code, architecture des données et compréhension des systèmes.</p></div>
+        <div class="filter-row" id="skill-filters" role="group" aria-label="Filtres de compétences"><button class="filter-button is-active" data-skill-filter="all">Toutes les compétences <span id="skill-count">11</span></button><button class="filter-button" data-skill-filter="high">Compétences ≥ niveau 4</button><button class="filter-button" data-skill-filter="top">Compétences les mieux maîtrisées <span>★</span></button></div>
+        <div class="skills-grid" id="skills-grid"></div>
+      </section>
+
+      <section id="projets" class="section-block projects-section">
+        <div class="section-heading"><div><p class="eyebrow">03 / sélection de travaux</p><h2>Projets qui <em>prennent forme.</em></h2></div><p class="section-note">Des exercices concrets où l'analyse devient une solution utilisable.</p></div>
+        <div class="projects-toolbar"><div class="filter-row" id="project-filters" role="group" aria-label="Filtres de projets"><button class="filter-button is-active" data-project-filter="all">Tous les projets</button><button class="filter-button" data-project-filter="completed">Terminés</button><button class="filter-button" data-project-filter="progress">En cours</button></div><label class="search-box"><span>⌕</span><input id="project-search" type="search" placeholder="Rechercher une technologie..." aria-label="Rechercher une technologie"></label></div>
+        <div class="projects-list" id="projects-list"></div>
+      </section>
+
+      <section id="statistiques" class="section-block stats-section"><div class="section-heading"><div><p class="eyebrow">04 / lecture des données</p><h2>Quelques chiffres <em>significatifs.</em></h2></div><p class="section-note">Une vue synthétique de mon terrain de jeu technique.</p></div><div class="stats-layout"><div class="stats-main" id="stats-main"></div><aside class="top-skills"><div class="mini-heading"><span>TOP 03</span><small>Compétences les plus maîtrisées</small></div><div id="top-skills-list"></div></aside></div></section>
+
+      <section id="contact" class="section-block" style="padding-bottom: 48px;">
+        <div class="section-heading"><div><p class="eyebrow">05 / contact</p><h2>Travaillons <em>ensemble.</em></h2></div><p class="section-note">Disponible pour des missions, collaborations et projets digitaux.</p></div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:30px;">
+          <div style="border:1px solid rgba(221,235,219,.15);background:rgba(17,22,20,.7);padding:22px 20px;">
+            <div style="font:10px var(--mono);color:#a5ada4;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px;">Téléphone</div>
+            <a href="tel:+32466342652" style="color:var(--lime);font-size:1.3rem;text-decoration:none;">+32466342652</a>
+          </div>
+          <div style="border:1px solid rgba(221,235,219,.15);background:rgba(17,22,20,.7);padding:22px 20px;">
+            <div style="font:10px var(--mono);color:#a5ada4;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px;">GitHub</div>
+            <a href="https://github.com/armelgokabah-art" target="_blank" rel="noreferrer" style="color:var(--text);text-decoration:none;">github.com/armelgokabah-art</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer><span>© 2026 GOK ABAH ARMEL RODRIGUE</span><span>Conçu avec précision <i>●</i> GitHub Pages ready</span><a href="#profil">Retour en haut ↑</a></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
